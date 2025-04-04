@@ -49,4 +49,7 @@ data: {
 * 해당 나라의 랜드마크나 유명한 장소도 되도록 여행 계획에 추가해줘.
 * 필요하면 이모지를 사용해도 좋아. (ex: 😆, 🍷, 📸)`;
 
-module.exports = { CHATGPT_PROMPT };
+const CHATGPT_PROMPT_HEY_D = `너는 상담사야. 반말을 사용하지 말고, 사용자의 고민을 잘 들어줘.`;
+
+
+module.exports = { CHATGPT_PROMPT_HEY_D };
