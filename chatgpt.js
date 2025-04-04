@@ -1,6 +1,6 @@
 require("dotenv").config();
 const OpenAIApi = require("openai");
-const { CHATGPT_PROMPT } = require("./chatgpt-prompt");
+const { CHATGPT_PROMPT_HEY_D } = require("./chatgpt-prompt");
 
 const openai = new OpenAIApi({
   api_key: "process.env.OPENAI_API_KEY",
@@ -16,7 +16,7 @@ async function callChatGPT(message) {
       messages: [
         {
           role: "system",
-          content: CHATGPT_PROMPT,
+          content: CHATGPT_PROMPT_HEY_D,
         },
         {
           role: "user",
